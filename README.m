@@ -42,3 +42,12 @@
 % Author: Lina Zhuang, Sep. 2024
 %
 
+
+
+MatConvNetをGPUでCompileしようと思うとエラーが出まくる
+大体'--std=c++11'とDEDEBUGみたいなやつ
+
+CPUバージョンならコンパイルできるが、今度はEigenCNN_core.pでエラーが起きる
+ChatGPTによると、勝手にGPUで扱われているらしい
+
+詰み。

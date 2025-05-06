@@ -36,6 +36,8 @@ load('img_noisy.mat');
 load('img_clean.mat');
 k_subspace = 6;
 spatialVariant = 0;
+img_noisy = single(img_noisy);
+img_clean = single(img_clean);
 
 %%%%%%%%%%%%%%%%           Eigen-CNN        %%%%%%%%%%%%%%%%%%%%%%%%%
 
